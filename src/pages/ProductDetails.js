@@ -1,11 +1,12 @@
 import React from 'react'
-
-function ProductDetails() {
+import ProdDesc from '../components/ProdDescription';
+import ProdImg from '../components/ProductImage';
+export default function ProductDetails() {
     return (
         <div>
-            <h1>ProductDetails</h1>
+            <ProdDesc/>
+            <ProdImg/>
+            
         </div>
     )
 }
-
-export default ProductDetails

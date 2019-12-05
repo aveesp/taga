@@ -1,11 +1,11 @@
-import React from 'react'
-
-function OrderConfirmation() {
-    return (
-        <div>
-            <h1>OrderConfirmation</h1>
-        </div>
-    )
-}
-
-export default OrderConfirmation
+    import React from 'react'
+    import OrderConf from '../components/orderconf';
+    
+    export default function OrderConfirmation() {
+        return (
+            <div>
+                <OrderConf/>
+            </div>
+        )
+    }
+    

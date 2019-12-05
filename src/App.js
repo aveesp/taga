@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Homepage from './pages/Homepage'
 import ProductListing from './pages/ProductListing';
 import ProductDetails from './pages/ProductDetails';
@@ -8,9 +9,11 @@ import OrderConfirmation from './pages/OrderConfirmation';
 
 import './App.css';
 
-const App = () => {
+function App() {
   return (
     <div className="App">
+      
+        
           TAGA FASHION
           <Homepage/>
           <ProductListing/>
@@ -18,6 +21,8 @@ const App = () => {
           <Cart/>
           <Checkout/>
           <OrderConfirmation/>
+        
+      
     </div>
   );
 }
