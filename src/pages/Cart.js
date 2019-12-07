@@ -1,10 +1,9 @@
 import React from 'react'
-import cart from '../components/cartcomp';
 
 export default function Cart() {
     return (
         <div>
-            <cart/>
+            <h1>Add to Cart</h1>
         </div>
     )
 }

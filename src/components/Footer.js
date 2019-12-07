@@ -14,7 +14,6 @@ export default function Footer() {
                 <div className="col-md-6 mt-md-0 mt-3">
 
                     <h5 className="text-uppercase">Footer Content</h5>
-                    <p>Here you can use rows and columns to organize your footer content.</p>
 
                 </div>
 
@@ -26,40 +25,18 @@ export default function Footer() {
 
                     <ul className="list-unstyled">
                     <li>
-                        <a href="#!">Link 1</a>
+                        <a href="#!">About Us</a>
                     </li>
                     <li>
-                        <a href="#!">Link 2</a>
+                        <a href="#!">Contact Us</a>
                     </li>
                     <li>
-                        <a href="#!">Link 3</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 4</a>
+                        <a href="#!">Feedback</a>
                     </li>
                     </ul>
 
                 </div>
-                <div className="col-md-3 mb-md-0 mb-3">
-
-                    <h5 className="text-uppercase">Links</h5>
-
-                    <ul className="list-unstyled">
-                    <li>
-                        <a href="#!">Link 1</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 2</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 3</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 4</a>
-                    </li>
-                    </ul>
-
-                </div>
+                
 
                 </div>
 
